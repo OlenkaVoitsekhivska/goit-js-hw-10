@@ -25,7 +25,7 @@ function handleInput(evt) {
         return;
     }
     else if (evt.target.value) {
-        handleSuccess(evt.target.value);
+        handleSuccess(evt.target.value.trim());
     }
 }
 
