@@ -27,6 +27,9 @@ img {
   width: 60px;
   height: 40px;
 }
+p {
+  margin: 0;
+}
 .category {
   font-size: 16px;
   font-weight: bold;
@@ -35,22 +38,18 @@ img {
 .list-group {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
 }
 .list-group-item {
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
-.hidden {
-  display: none;
+.category-wrapper {
+  margin-bottom: 10px;
 }
-
-.itemAlign {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  font-size: 16px;
+.fontUp {
+  font-size: 40px;
   font-weight: 500;
-}
-.listImg {
-  margin-right: 10px;
+  margin-bottom: 20px;
 }
